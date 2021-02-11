@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(/img/starbackground.png) repeat 0 0;
+    background: url(img/starbackground.png) repeat 0 0;
     animation: slide 40s linear infinite;
 }
 
@@ -20,7 +20,7 @@ ul {
 a { text-decoration: none;}
 
 .navcontainer {
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     overflow: hidden;
     padding: 25px;
@@ -270,7 +270,7 @@ ul li a:hover {
 .textblock {
     position: absolute;
     top: 35%;
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     align-content: center;
     height: 5%;
@@ -316,7 +316,7 @@ ul li a:hover {
 }
 
 .categorybarwork {
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     padding-top: 1%;
     padding-left: 20%;
@@ -402,7 +402,7 @@ display: none;
 }
 
 .categorybarcontact {
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     padding-top: 1%;
     margin-top: 10%;
@@ -452,7 +452,7 @@ button {
     color: #fff;
     width: 25%;
     padding: 2%;
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     opacity: 50%;
     border: none;
@@ -475,7 +475,7 @@ button {
 
 .footercontainer {
     position: relative;
-    background: url(/img/starbar.png);
+    background: url(img/starbar.png);
     animation: slide 40s linear infinite;
     display: grid;
     grid-template-columns: repeat(2, 50%);
