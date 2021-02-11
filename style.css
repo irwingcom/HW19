@@ -11,6 +11,20 @@ body {
     from { background-position: 0 0; }
     to { background-position: 0 500px; }
 }
+@-moz-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
+
+@-o-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
 
 ul {
     list-style: none;
