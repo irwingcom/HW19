@@ -4,10 +4,10 @@
 
 body {
     background: url(/img/star\ background.png) repeat 0 0;
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
     from { background-position: 0 0; }
     to { background-position: 0 500px; }
 }
@@ -21,7 +21,7 @@ a { text-decoration: none;}
 
 .navcontainer {
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     overflow: hidden;
     padding: 25px;
 }
@@ -271,7 +271,7 @@ ul li a:hover {
     position: absolute;
     top: 35%;
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     align-content: center;
     height: 5%;
     width: 98% ;
@@ -317,7 +317,7 @@ ul li a:hover {
 
 .categorybarwork {
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     padding-top: 1%;
     padding-left: 20%;
     margin-top: 5%;
@@ -403,7 +403,7 @@ display: none;
 
 .categorybarcontact {
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     padding-top: 1%;
     margin-top: 10%;
     padding-left: 20%;
@@ -453,7 +453,7 @@ button {
     width: 25%;
     padding: 2%;
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     opacity: 50%;
     border: none;
     border-radius: 12px;
@@ -476,7 +476,7 @@ button {
 .footercontainer {
     position: relative;
     background: url(/img/star\ bar.png);
-    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     padding-top: 1%;
