@@ -475,7 +475,7 @@ button {
 
 .footercontainer {
     position: relative;
-    background-image: url("/img/starbar.png");
+    background-image: url("../img/starbar.png");
     animation: slide 40s linear infinite;
     display: grid;
     grid-template-columns: repeat(2, 50%);
